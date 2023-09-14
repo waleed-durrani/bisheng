@@ -205,6 +205,13 @@ def initial_milvus(class_object: Type[Milvus], params: dict):
     if 'connection_args' not in params:
         connection_args = settings.knowledges.get('vectorstores').get('Milvus')
         params['connection_args'] = connection_args
+    # if 'embedding' not in params:
+    # model_list = settings.knowledges.get('embeddings')
+
+    # if model == 'text-embedding-ada-002':
+    #     return OpenAIEmbeddings(**model_list.get(model))
+    # else:
+    #     return HostEmbeddings(**model_list.get(model))
     elif isinstance(params.get('connection_args'), str):
         print(f"milvus before params={params} type={type(params['connection_args'])}")
         params['connection_args'] = json.loads(params.pop('connection_args'))
