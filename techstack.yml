@@ -1,7 +1,8 @@
 repo_name: waleed-durrani/bisheng
 report_id: 060ecf7343ccad6a14a5e02682b8d9ca
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-14T06:59:07+00:00'
+timestamp: '2024-01-05T08:45:24+00:00'
 requested_by: yaojin3616
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -54,6 +59,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -66,7 +72,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: src/frontend/package.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/Dockerfile
+  detection_source: src/frontend/Dockerfile
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
 - name: React
@@ -79,7 +86,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -93,7 +100,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -105,6 +112,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -116,6 +124,7 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: yaojin
   last_updated_on: 2023-09-19 12:52:52.000000000 Z
@@ -127,7 +136,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: src/backend/bisheng/template/frontend_node/vectorstores.py
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/bisheng/interface/initialize/vector_store.py
+  detection_source: src/backend/bisheng/interface/initialize/vector_store.py
   last_updated_by: yaojin
   last_updated_on: 2023-09-12 12:09:58.000000000 Z
 - name: Redis
@@ -140,7 +150,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: docker/docker-compose.yml
   last_updated_by: yaojin
   last_updated_on: 2023-09-19 12:52:52.000000000 Z
@@ -153,6 +163,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -162,6 +173,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -171,7 +183,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/release.yml"
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
   last_updated_by: yaojin
   last_updated_on: 2023-09-12 03:49:36.000000000 Z
 - name: Jest
@@ -183,6 +196,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -194,6 +208,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/bisheng-langchain/requirements.txt
   detection_source: src/bisheng-langchain/requirements.txt
   last_updated_by: hanfeng
   last_updated_on: 2023-08-29 13:26:42.000000000 Z
@@ -206,7 +221,8 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
-  detection_source: src/frontend/nginx.conf
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/docker/nginx/nginx.conf
+  detection_source: docker/nginx/nginx.conf
   last_updated_by: yaojin
   last_updated_on: 2023-09-05 03:48:01.000000000 Z
 - name: Prettier
@@ -219,7 +235,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -231,6 +247,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/pyproject.toml
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
@@ -242,6 +259,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/yarn.lock
   detection_source: src/frontend/yarn.lock
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -253,6 +271,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -265,7 +284,7 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/bisheng-langchain/requirements.txt
   last_updated_by: hanfeng
   last_updated_on: 2023-08-29 13:26:42.000000000 Z
@@ -278,7 +297,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -291,6 +310,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/waleed-durrani/bisheng
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -302,14 +322,14 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
 - name: appdirs
   description: A small Python module for determining appropriate platform-specific
     dirs, e.g
-  package_url: https://pypi.org/appdirs
+  package_url: https://pypi.org/project/appdirs
   version: 1.4.4
   license: MIT
   open_source: true
@@ -317,13 +337,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19878/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: beautifulsoup4
   description: Screen-scraping library
-  package_url: https://pypi.org/beautifulsoup4
+  package_url: https://pypi.org/project/beautifulsoup4
   version: 4.12.2
   license: MIT
   open_source: true
@@ -331,13 +351,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: black
   description: The uncompromising code formatter
-  package_url: https://pypi.org/black
+  package_url: https://pypi.org/project/black
   version: 23.9.1
   license: MIT
   open_source: true
@@ -345,13 +365,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: cachetools
   description: Extensible memoizing collections and decorators
-  package_url: https://pypi.org/cachetools
+  package_url: https://pypi.org/project/cachetools
   version: 5.3.1
   license: MIT
   open_source: true
@@ -359,13 +379,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/certifi
+  package_url: https://pypi.org/project/certifi
   version: 2023.7.22
   license: MPL-2.0
   open_source: true
@@ -373,13 +393,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: fastapi
   description: FastAPI framework
-  package_url: https://pypi.org/fastapi
+  package_url: https://pypi.org/project/fastapi
   version: 0.100.1
   license: MIT
   open_source: true
@@ -387,13 +407,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-08 04:32:21.000000000 Z
 - name: google-api-python-client
   description: Google API Client Library for Python
-  package_url: https://pypi.org/google-api-python-client
+  package_url: https://pypi.org/project/google-api-python-client
   version: 2.98.0
   license: Apache-2.0
   open_source: true
@@ -401,13 +421,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: gunicorn
   description: WSGI HTTP Server for UNIX
-  package_url: https://pypi.org/gunicorn
+  package_url: https://pypi.org/project/gunicorn
   version: 20.1.0
   license: MIT
   open_source: true
@@ -415,13 +435,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: httpx
   description: The next generation HTTP client
-  package_url: https://pypi.org/httpx
+  package_url: https://pypi.org/project/httpx
   version: 0.23.3
   license: BSD-3-Clause
   open_source: true
@@ -429,13 +449,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: ipykernel
   description: IPython Kernel for Jupyter
-  package_url: https://pypi.org/ipykernel
+  package_url: https://pypi.org/project/ipykernel
   version: 6.25.2
   license: BSD-3-Clause
   open_source: true
@@ -443,13 +463,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: jieba
   description: Chinese Words Segmentation Utilities
-  package_url: https://pypi.org/jieba
+  package_url: https://pypi.org/project/jieba
   version: 0.42.1
   license: MIT
   open_source: true
@@ -457,14 +477,14 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20154/default_00b4278983e5385b6d5b93c4ffc4ef51d53270e9.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: lxml
   description: Powerful and Pythonic XML processing library combining libxml2/libxslt
     with the ElementTree API
-  package_url: https://pypi.org/lxml
+  package_url: https://pypi.org/project/lxml
   version: 4.9.3
   license: BSD-3-Clause
   open_source: true
@@ -472,13 +492,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: multiprocess
   description: Better multiprocessing and multithreading in python
-  package_url: https://pypi.org/multiprocess
+  package_url: https://pypi.org/project/multiprocess
   version: 0.70.15
   license: BSD-3-Clause
   open_source: true
@@ -486,13 +506,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20654/default_4658783a4f70e14bc0c2a151840ea9736539842c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: mypy
   description: Optional static typing for Python
-  package_url: https://pypi.org/mypy
+  package_url: https://pypi.org/project/mypy
   version: 1.5.1
   license: MIT
   open_source: true
@@ -500,13 +520,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: networkx
   description: Python package for creating and manipulating graphs and networks
-  package_url: https://pypi.org/networkx
+  package_url: https://pypi.org/project/networkx
   version: '3.1'
   license: BSD-3-Clause
   open_source: true
@@ -514,13 +534,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: pandas
   description: Powerful data structures for data analysis
-  package_url: https://pypi.org/pandas
+  package_url: https://pypi.org/project/pandas
   version: 2.1.0
   license: BSD-3-Clause
   open_source: true
@@ -528,13 +548,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: pyarrow
   description: Python library for Apache Arrow
-  package_url: https://pypi.org/pyarrow
+  package_url: https://pypi.org/project/pyarrow
   version: 12.0.1
   license: Apache-2.0
   open_source: true
@@ -542,7 +562,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
@@ -555,7 +575,7 @@ tools:
     first_patched: 14.0.1
 - name: pymongo
   description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
-  package_url: https://pypi.org/pymongo
+  package_url: https://pypi.org/project/pymongo
   version: 4.5.0
   license: Apache-2.0
   open_source: true
@@ -563,13 +583,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: pytest
   description: 'Pytest: simple powerful testing with Python'
-  package_url: https://pypi.org/pytest
+  package_url: https://pypi.org/project/pytest
   version: 7.4.2
   license: MIT
   open_source: true
@@ -577,13 +597,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: pytest-cov
   description: Pytest plugin for measuring coverage
-  package_url: https://pypi.org/pytest-cov
+  package_url: https://pypi.org/project/pytest-cov
   version: 4.1.0
   license: MIT
   open_source: true
@@ -591,13 +611,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   version: 2.31.0
   license: Apache-2.0
   open_source: true
@@ -605,13 +625,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
 - name: websockets
   description: An implementation of the WebSocket Protocol
-  package_url: https://pypi.org/websockets
+  package_url: https://pypi.org/project/websockets
   version: '10.4'
   license: BSD-3-Clause
   open_source: true
@@ -619,7 +639,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
-  detection_source_url: src/backend/poetry.lock
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/backend/poetry.lock
   detection_source: src/backend/pyproject.toml
   last_updated_by: yaojin
   last_updated_on: 2023-09-01 14:54:53.000000000 Z
@@ -633,7 +653,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -647,7 +667,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-06 12:16:46.000000000 Z
@@ -662,7 +682,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -676,7 +696,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -690,7 +710,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -704,7 +724,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-15 10:49:02.000000000 Z
@@ -718,7 +738,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -732,7 +752,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -746,7 +766,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -760,7 +780,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17396/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -774,7 +794,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -795,7 +815,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18432/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -809,7 +829,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -823,7 +843,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -837,7 +857,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -851,7 +871,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -865,7 +885,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -880,7 +900,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -894,7 +914,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-09-12 02:56:07.000000000 Z
@@ -908,7 +928,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -922,7 +942,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
@@ -936,7 +956,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/waleed-durrani/bisheng/blob/main/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: dolphin
   last_updated_on: 2023-08-29 09:02:14.000000000 Z
