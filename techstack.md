@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 waleed-durrani/bisheng is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - [Python](https://www.python.org) – Languages
@@ -26,11 +27,13 @@ waleed-durrani/bisheng is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 waleed-durrani/bisheng is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
@@ -55,14 +58,15 @@ waleed-durrani/bisheng is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [waleed-durrani/bisheng](https://github.com/waleed-durrani/bisheng)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|70<br/>Tools used|11/14/23 <br/>Report generated|
+|70<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -308,28 +312,28 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[appdirs](https://pypi.org/appdirs)|v1.4.4|09/01/23|yaojin |MIT|N/A|
-|[beautifulsoup4](https://pypi.org/beautifulsoup4)|v4.12.2|09/01/23|yaojin |MIT|N/A|
-|[black](https://pypi.org/black)|v23.9.1|09/01/23|yaojin |MIT|N/A|
-|[cachetools](https://pypi.org/cachetools)|v5.3.1|09/01/23|yaojin |MIT|N/A|
-|[certifi](https://pypi.org/certifi)|v2023.7.22|09/01/23|yaojin |MPL-2.0|N/A|
-|[fastapi](https://pypi.org/fastapi)|v0.100.1|09/08/23|yaojin |MIT|N/A|
-|[google-api-python-client](https://pypi.org/google-api-python-client)|v2.98.0|09/01/23|yaojin |Apache-2.0|N/A|
-|[gunicorn](https://pypi.org/gunicorn)|v20.1.0|09/01/23|yaojin |MIT|N/A|
-|[httpx](https://pypi.org/httpx)|v0.23.3|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[ipykernel](https://pypi.org/ipykernel)|v6.25.2|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[jieba](https://pypi.org/jieba)|v0.42.1|09/01/23|yaojin |MIT|N/A|
-|[lxml](https://pypi.org/lxml)|v4.9.3|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[multiprocess](https://pypi.org/multiprocess)|v0.70.15|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[mypy](https://pypi.org/mypy)|v1.5.1|09/01/23|yaojin |MIT|N/A|
-|[networkx](https://pypi.org/networkx)|v3.1|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[pandas](https://pypi.org/pandas)|v2.1.0|09/01/23|yaojin |BSD-3-Clause|N/A|
-|[pyarrow](https://pypi.org/pyarrow)|v12.0.1|09/01/23|yaojin |Apache-2.0|[CVE-2023-47248](https://github.com/advisories/GHSA-5wvp-7f3h-6wmm) (Critical)|
-|[pymongo](https://pypi.org/pymongo)|v4.5.0|09/01/23|yaojin |Apache-2.0|N/A|
-|[pytest](https://pypi.org/pytest)|v7.4.2|09/01/23|yaojin |MIT|N/A|
-|[pytest-cov](https://pypi.org/pytest-cov)|v4.1.0|09/01/23|yaojin |MIT|N/A|
-|[requests](https://pypi.org/requests)|v2.31.0|09/01/23|yaojin |Apache-2.0|N/A|
-|[websockets](https://pypi.org/websockets)|v10.4|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[appdirs](https://pypi.org/project/appdirs)|v1.4.4|09/01/23|yaojin |MIT|N/A|
+|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.12.2|09/01/23|yaojin |MIT|N/A|
+|[black](https://pypi.org/project/black)|v23.9.1|09/01/23|yaojin |MIT|N/A|
+|[cachetools](https://pypi.org/project/cachetools)|v5.3.1|09/01/23|yaojin |MIT|N/A|
+|[certifi](https://pypi.org/project/certifi)|v2023.7.22|09/01/23|yaojin |MPL-2.0|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.100.1|09/08/23|yaojin |MIT|N/A|
+|[google-api-python-client](https://pypi.org/project/google-api-python-client)|v2.98.0|09/01/23|yaojin |Apache-2.0|N/A|
+|[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|09/01/23|yaojin |MIT|N/A|
+|[httpx](https://pypi.org/project/httpx)|v0.23.3|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[ipykernel](https://pypi.org/project/ipykernel)|v6.25.2|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[jieba](https://pypi.org/project/jieba)|v0.42.1|09/01/23|yaojin |MIT|N/A|
+|[lxml](https://pypi.org/project/lxml)|v4.9.3|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[multiprocess](https://pypi.org/project/multiprocess)|v0.70.15|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[mypy](https://pypi.org/project/mypy)|v1.5.1|09/01/23|yaojin |MIT|N/A|
+|[networkx](https://pypi.org/project/networkx)|v3.1|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[pandas](https://pypi.org/project/pandas)|v2.1.0|09/01/23|yaojin |BSD-3-Clause|N/A|
+|[pyarrow](https://pypi.org/project/pyarrow)|v12.0.1|09/01/23|yaojin |Apache-2.0|[CVE-2023-47248](https://github.com/advisories/GHSA-5wvp-7f3h-6wmm) (Critical)|
+|[pymongo](https://pypi.org/project/pymongo)|v4.5.0|09/01/23|yaojin |Apache-2.0|N/A|
+|[pytest](https://pypi.org/project/pytest)|v7.4.2|09/01/23|yaojin |MIT|N/A|
+|[pytest-cov](https://pypi.org/project/pytest-cov)|v4.1.0|09/01/23|yaojin |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.31.0|09/01/23|yaojin |Apache-2.0|N/A|
+|[websockets](https://pypi.org/project/websockets)|v10.4|09/01/23|yaojin |BSD-3-Clause|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (22)
@@ -362,4 +366,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
